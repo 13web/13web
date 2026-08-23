@@ -1,0 +1,35 @@
+# 忽略操作系统产生的隐藏文件
+.DS_Store           # macOS的文件
+Thumbs.db           # Windows的缩略图缓存
+
+# 忽略编译生成的文件
+*.exe               # Windows可执行文件
+*.dll               # 动态链接库
+*.so                # Linux共享库
+*.class             # Java编译文件
+*.pyc               # Python编译缓存
+*.o                 # 编译生成的目标文件
+
+# 忽略 IDE 和编辑器产生的配置文件
+.vscode/           # VSCode配置目录
+.idea/             # IntelliJ IDEA配置目录
+*.iml              # IntelliJ IDEA项目文件
+*.suo              # Visual Studio的用户会话文件
+*.user             # Visual Studio用户文件
+*.swp              # Vim交换文件
+*.sublime-workspace
+
+# 忽略日志文件
+*.log
+
+# 忽略临时文件
+*.tmp
+*.bak
+*.swp
+
+# 忽略项目依赖包（比如Node.js）
+node_modules/
+bower_components/
+
+# 忽略环境变量配置
+.env
